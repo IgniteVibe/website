@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IgniteVibe Marketing</title>
+
+  <!-- Manifest for app installation -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Service Worker for offline support -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</head>
+<body>
+  <h1>Welcome to IgniteVibe Marketing</h1>
+  <p>This is your installable app homepage.</p>
+</body>
+</html>
